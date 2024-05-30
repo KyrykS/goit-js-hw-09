@@ -83,8 +83,7 @@ const images = [
    `;
    }).join('');
    
-
-   
+  
    galContainer.innerHTML = galMarkup;
    new SimpleLightbox('.gallery a', { captionsData: 'alt',
    captionDelay: 250,});
