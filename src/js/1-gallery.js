@@ -1,5 +1,5 @@
-import SimpleLightbox from "/Users/Projects-Fullstack/JavaScript/goit-js-hw-09/node_modules/simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+import SimpleLightbox from "simplelightbox";
+import "./path/to/simplelightbox";
 
 const images = [
     {
