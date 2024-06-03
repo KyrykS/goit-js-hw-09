@@ -82,9 +82,11 @@ border-radius: 4px;
 width: 360px;
 height: 40px;
 }
+
 .inp-email:hover {
 border: 1px solid #000;
 }
+
 .textarea-message {
 border: 1px solid #808080;
 border-radius: 4px;
