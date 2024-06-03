@@ -28,3 +28,66 @@ body {
     width: 1112px;
     height: 640px;
   }
+
+.feedback-form {
+padding: 24px 24px 80px 24px;
+display: flex;
+max-width: 360px;
+flex-direction: column;
+column-gap: 8px;
+}
+.lbl-email {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+display: flex;
+flex-direction: column;
+padding-bottom: 8px;
+}
+.lbl-message {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+display: flex;
+flex-direction: column;
+column-gap: 8px;
+margin-bottom: 16px;
+}
+.btn-submit {
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background-color:#4E75FF;
+border-radius: 8px;
+padding: 8px 16px;
+width: 95px;
+height: 40px;
+border: none;
+}
+.btn-submit:hover {
+background: #6c8cff;
+}
+.inp-email {
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+.inp-email:hover {
+border: 1px solid #000;
+}
+.textarea-message {
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 80px;
+}
